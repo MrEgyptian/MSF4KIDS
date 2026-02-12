@@ -36,7 +36,7 @@ success 'Unstable repo installed'
 }
 install_termux_service(){
 proc 'Installing termux-service'
-pkg install termux-service -y
+pkg install termux-api -y
 success 'termux-service installed'
 }
 install_deps(){
